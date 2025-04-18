@@ -1,6 +1,7 @@
-# eventitech cli  
+# 📅 eventitech cli  
 
-Un semplice e leggero client da riga di comando per consultare gli eventi tecnologici in Italia direttamente dal terminale.  
+Un semplice, leggero e pratico client da riga di comando che ti permette di consultare in tempo reale tutti gli eventi tecnologici organizzati in Italia, direttamente dal tuo terminale, senza bisogno di aprire il browser o navigare su siti web.
+
 Basato su [eventitech.it](https://eventitech.it) — l’hub degli eventi tech italiani.
 
 ## ✨ Caratteristiche
