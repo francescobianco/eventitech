@@ -1,5 +1,8 @@
 # 📅 eventitech cli  
 
+[![macos](https://github.com/francescobianco/eventitech/actions/workflows/macos.yml/badge.svg)](https://github.com/francescobianco/eventitech/actions/workflows/macos.yml)
+[![ubuntu](https://github.com/francescobianco/eventitech/actions/workflows/ubuntu.yml/badge.svg)](https://github.com/francescobianco/eventitech/actions/workflows/ubuntu.yml)
+
 Un semplice, leggero e pratico client da riga di comando che ti permette di consultare in tempo reale tutti gli eventi tecnologici organizzati in Italia, direttamente dal tuo terminale, senza bisogno di aprire il browser o navigare su siti web.
 
 Basato su [eventitech.it](https://eventitech.it) — l’hub degli eventi tech italiani.
