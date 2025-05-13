@@ -29,7 +29,7 @@ mush install eventitech
 ### 3. Avvia il client
 
 ```bash
-eventitech
+eventitech php
 ```
 
 Oppure cerca eventi per città o data:
