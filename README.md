@@ -37,7 +37,6 @@ Oppure cerca eventi per città o data:
 ```bash
 eventitech roma
 eventitech 2025-05-20
-eventitech milano 2025-06
 ```
 
 ## 🖥️ Compatibilità
@@ -48,15 +47,10 @@ Funziona al meglio su terminali con supporto UTF-8.
 ## 📌 Esempi di utilizzo
 
 ```
-$ eventitech
-📅 23 Aprile - Roma - DevOps Day 2025
-📅 2 Maggio - Milano - AI & Data Summit
-📅 5 Maggio - Online - Corso Kubernetes per sviluppatori
-```
-
-```
-$ eventitech bologna
-📅 10 Maggio - Bologna - React Conf Italia
+$ eventitech palermo
+📅 2023-10-20 (Palermo) Italy KNIME Users
+📅 2023-12-18 (Palermo) Italy KNIME Users
+📅 2024-01-13 (Palermo) Google Developer Group Palermo
 ```
 
 ## ❤️ Ringraziamenti
