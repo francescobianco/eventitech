@@ -1,0 +1,24 @@
+name: template
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  hackathon:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install Mush
+        run: curl -fsSL https://get.javanile.org/mush | sh
+          && mkdir -p ~/.local/bin/ && cp ~/.mush/bin/mush ~/.local/bin/
+
+      - name: Verify installation
+        run: mush --version
+
+      - name: Install eventitech package
+        run: mush install eventitech
+          && mkdir -p ~/.local/bin/ && cp ~/.mush/bin/eventitech ~/.local/bin/
+
+      - name: Verify eventitech installation
+        run: eventitech palermo
