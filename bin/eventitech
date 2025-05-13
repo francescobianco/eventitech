@@ -3,7 +3,7 @@
 # @package: eventitech
 # @build_type: bin
 # @build_with: inject file VERSION
-# @build_date: 2025-05-13T11:11:35Z
+# @build_date: 2025-05-13T11:11:52Z
 set -e
 use() { return 0; }
 extern() { return 0; }
