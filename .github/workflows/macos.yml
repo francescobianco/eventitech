@@ -1,4 +1,4 @@
-name: ubuntu
+name: macos
 
 on:
   push:
@@ -6,8 +6,8 @@ on:
       - main
 
 jobs:
-  ubuntu:
-    runs-on: ubuntu-latest
+  macos:
+    runs-on: macos-latest
     steps:
       - name: Install Mush
         run: curl -fsSL https://get.javanile.org/mush | sh
