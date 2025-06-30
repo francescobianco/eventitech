@@ -11,6 +11,7 @@ usage() {
 main() {
   local event
   local event_name
+  local today
 
   while [ $# -gt 0 ]; do
     case "$1" in
@@ -40,12 +41,16 @@ main() {
 
   #echo "Query: $*"
 
+  today=$(date +%Y-%m-%d)
+
   {
     eventitech_cache | grep -i "$*" | while read -r event; do
       event_name=$(echo "${event}" | sed 's/.*"name":"//' | cut -d'"' -f1)
       event_start_date=$(echo "${event}" | sed 's/.*"startDate":"//' | cut -d'"' -f1 | head -c 10)
       event_location=$(echo "${event}" | sed 's/.*"location":"//' | cut -d'"' -f1)
-      echo "📅 ${event_start_date} (${event_location}) ${event_name}"
+      if [ "${event_start_date}" \> "${today}" ] || [ "${event_start_date}" = "${today}" ]; then
+        echo "📅 ${event_start_date} (${event_location}) ${event_name}"
+      fi
     done
   } | sort
 }
