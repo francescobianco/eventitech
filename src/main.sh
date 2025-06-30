@@ -49,7 +49,7 @@ main() {
       event_start_date=$(echo "${event}" | sed 's/.*"startDate":"//' | cut -d'"' -f1 | head -c 10)
       event_location=$(echo "${event}" | sed 's/.*"location":"//' | cut -d'"' -f1)
       if [ "${event_start_date}" \> "${today}" ] || [ "${event_start_date}" = "${today}" ]; then
-        echo "📅 ${event_start_date} (${event_location}) ${event_name}"
+        echo "📅 ${event_start_date} [${event_location}] ${event_name}"
       fi
     done
   } | sort
