@@ -3,7 +3,7 @@
 # @package: eventitech
 # @build_type: bin
 # @build_with: Mush v0.2.0 (2025-05-15 develop)
-# @build_date: 2025-06-30T15:15:25Z
+# @build_date: 2025-06-30T15:15:27Z
 set -e
 use() { return 0; }
 extern() { return 0; }
