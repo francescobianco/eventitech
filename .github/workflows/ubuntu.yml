@@ -21,4 +21,4 @@ jobs:
           && mkdir -p ~/.local/bin/ && cp ~/.mush/bin/eventitech ~/.local/bin/
 
       - name: Verify eventitech installation
-        run: eventitech palermo
+        run: eventitech milano
