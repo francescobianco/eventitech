@@ -50,10 +50,10 @@ Funziona al meglio su terminali con supporto UTF-8.
 ## 📌 Esempi di utilizzo
 
 ```
-$ eventitech palermo
-📅 2023-10-20 (Palermo) Italy KNIME Users
-📅 2023-12-18 (Palermo) Italy KNIME Users
-📅 2024-01-13 (Palermo) Google Developer Group Palermo
+$ eventitech milano
+📅 2025-09-18 [Milano] #pugMi: PHP User Group Milano
+📅 2025-10-14 [Milano] Codemotion
+📅 2025-12-02 [Assago (MI)] WPC 2025
 ```
 
 ## ❤️ Ringraziamenti
