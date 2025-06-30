@@ -3,7 +3,7 @@
 # @package: eventitech
 # @build_type: bin
 # @build_with: Mush v0.2.0 (2025-05-15 develop)
-# @build_date: 2025-06-30T15:17:48Z
+# @build_date: 2025-06-30T15:19:27Z
 set -e
 use() { return 0; }
 extern() { return 0; }
@@ -64,7 +64,7 @@ main() {
       event_start_date=$(echo "${event}" | sed 's/.*"startDate":"//' | cut -d'"' -f1 | head -c 10)
       event_location=$(echo "${event}" | sed 's/.*"location":"//' | cut -d'"' -f1)
       if [ "${event_start_date}" \> "${today}" ] || [ "${event_start_date}" = "${today}" ]; then
-        echo "📅 ${event_start_date} (${event_location}) ${event_name}"
+        echo "📅 ${event_start_date} [${event_location}] ${event_name}"
       fi
     done
   } | sort
